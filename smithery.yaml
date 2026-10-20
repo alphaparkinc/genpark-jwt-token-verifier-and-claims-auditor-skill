@@ -1,0 +1,7 @@
+name: genpark-jwt-token-verifier-and-claims-auditor-skill
+description: Pure-Python zero-dependency JWT claims auditor and payload inspector enforcing expiry, audience, and algorithm safety
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
